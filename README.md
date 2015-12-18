@@ -20,7 +20,9 @@ SETUP
 3. restore packages via
 
     $ go get github.com/astaxie/beego
+
     $ go get github.com/smartystreets/goconvey/convey
+
     $ go get github.com/jtolds/gls
 
 4. packages should appear at your $GOPATH/src/github.com folder
