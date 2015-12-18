@@ -27,6 +27,6 @@ SETUP
 ```
 4. packages should appear at your $GOPATH/src/github.com folder
 3. build and run
-4. open [http://127.0.0.1:8080] page in a browser
+4. open <http://127.0.0.1:8080> page in a browser
 5. follow the "Go to Login page: Login Page Link"
 6. if everythis is successed you will appear at Secure HTTPS page
