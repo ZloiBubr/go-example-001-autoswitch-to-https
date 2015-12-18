@@ -1,7 +1,7 @@
 package main
 
 import (
-	_ "enterprise2020/routers"
+	_ "go-example-001-autoswitch-to-https/routers"
 	"github.com/astaxie/beego"
 )
 

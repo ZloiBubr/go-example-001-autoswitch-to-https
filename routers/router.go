@@ -1,9 +1,9 @@
 package routers
 
 import (
-	"enterprise2020/controllers"
+	"go-example-001-autoswitch-to-https/controllers"
 	"github.com/astaxie/beego"
-	"enterprise2020/redirect"
+	"go-example-001-autoswitch-to-https/redirect"
 	"github.com/astaxie/beego/context"
 )
 

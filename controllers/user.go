@@ -1,9 +1,8 @@
 package controllers
 
 import (
-	"users/models"
+	"go-example-001-autoswitch-to-https/models"
 	"encoding/json"
-
 	"github.com/astaxie/beego"
 )
 

@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;go-example-001-autoswitch-to-https&gt;">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../.DS_Store" />
+      <root url="file://$PROJECT_DIR$/../github.com" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <excluded>
+      <root url="file://$PROJECT_DIR$/../github.com/smartystreets/assertions/.git" />
+      <root url="file://$PROJECT_DIR$/../github.com/jtolds/gls/.git" />
+      <root url="file://$PROJECT_DIR$" />
+      <root url="file://$PROJECT_DIR$/../github.com/smartystreets/goconvey/.git" />
+      <root url="file://$PROJECT_DIR$/../github.com/astaxie/beego/.git" />
+      <root url="file://$PROJECT_DIR$/../github.com/astaxie/beego/utils/testdata" />
+    </excluded>
+  </library>
+</component>
