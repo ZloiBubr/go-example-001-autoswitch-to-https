@@ -15,15 +15,15 @@ SETUP
 1. download copy of files to your #GOPATH/src/go-example-001-autoswitch-to-https folder
 2. generate your personal https certificate files xert.pem and key.pem and replace in root folder
 
-	$ go run /usr/local/go/src/crypto/tls/generate_cert.go -host="127.0.0.1"
+	$ $ go run /usr/local/go/src/crypto/tls/generate_cert.go -host="127.0.0.1"
 
 3. restore packages via
 
-    $ go get github.com/astaxie/beego
+    $ $ go get github.com/astaxie/beego
 
-    $ go get github.com/smartystreets/goconvey/convey
+    $ $ go get github.com/smartystreets/goconvey/convey
 
-    $ go get github.com/jtolds/gls
+    $ $ go get github.com/jtolds/gls
 
 4. packages should appear at your $GOPATH/src/github.com folder
 3. build and run
