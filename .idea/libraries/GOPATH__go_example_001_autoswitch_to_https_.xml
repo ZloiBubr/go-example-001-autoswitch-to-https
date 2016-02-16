@@ -1,18 +1,64 @@
 <component name="libraryTable">
   <library name="GOPATH &lt;go-example-001-autoswitch-to-https&gt;">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../.DS_Store" />
-      <root url="file://$PROJECT_DIR$/../github.com" />
+      <root url="file://$PROJECT_DIR$/../../../user" />
+      <root url="file://$PROJECT_DIR$/../.." />
+      <root url="file://$PROJECT_DIR$/../../../golang.org" />
+      <root url="file://$PROJECT_DIR$/../../../gopkg.in" />
+      <root url="file://$PROJECT_DIR$/../../../.DS_Store" />
     </CLASSES>
-    <JAVADOC />
     <SOURCES />
     <excluded>
-      <root url="file://$PROJECT_DIR$/../github.com/smartystreets/assertions/.git" />
-      <root url="file://$PROJECT_DIR$/../github.com/jtolds/gls/.git" />
+      <root url="file://$PROJECT_DIR$/../go-example-003-testing-fasthttp/.idea" />
+      <root url="file://$PROJECT_DIR$/../go-example-003-testing-fasthttp/.git" />
+      <root url="file://$PROJECT_DIR$/../../syndtr/goleveldb/.git" />
       <root url="file://$PROJECT_DIR$" />
-      <root url="file://$PROJECT_DIR$/../github.com/smartystreets/goconvey/.git" />
-      <root url="file://$PROJECT_DIR$/../github.com/astaxie/beego/.git" />
-      <root url="file://$PROJECT_DIR$/../github.com/astaxie/beego/utils/testdata" />
+      <root url="file://$PROJECT_DIR$/../../beego/bee/.git" />
+      <root url="file://$PROJECT_DIR$/../../siddontang/go/.git" />
+      <root url="file://$PROJECT_DIR$/../../eknkc/amber/.git" />
+      <root url="file://$PROJECT_DIR$/../../bradfitz/gomemcache/.git" />
+      <root url="file://$PROJECT_DIR$/../../siddontang/ledisdb/Godeps/_workspace" />
+      <root url="file://$PROJECT_DIR$/../../smartystreets/assertions/.git" />
+      <root url="file://$PROJECT_DIR$/../../jtolds/gls/.git" />
+      <root url="file://$PROJECT_DIR$/../../beego/bee/testdata" />
+      <root url="file://$PROJECT_DIR$/../../edsrzf/mmap-go/.git" />
+      <root url="file://$PROJECT_DIR$/../../smartystreets/goconvey/.git" />
+      <root url="file://$PROJECT_DIR$/../../astaxie/beego/.git" />
+      <root url="file://$PROJECT_DIR$/../../../golang.org/x/net/http2/testdata" />
+      <root url="file://$PROJECT_DIR$/../../astaxie/beego/utils/testdata" />
+      <root url="file://$PROJECT_DIR$/../../boltdb/bolt/.git" />
+      <root url="file://$PROJECT_DIR$/../../cupcake/rdb/.git" />
+      <root url="file://$PROJECT_DIR$/../../siddontang/ledisdb/.git" />
+      <root url="file://$PROJECT_DIR$/../../howeyc/fsnotify/.git" />
+      <root url="file://$PROJECT_DIR$/../../valyala/fasthttp/.git" />
+      <root url="file://$PROJECT_DIR$/../../../gopkg.in/mgo.v2/.git" />
+      <root url="file://$PROJECT_DIR$/../../goinggo/beego-mgo/.git" />
+      <root url="file://$PROJECT_DIR$/../../beego/goyaml2/.git" />
+      <root url="file://$PROJECT_DIR$/../../siddontang/rdb/.git" />
+      <root url="file://$PROJECT_DIR$/../../wendal/errors/.git" />
+      <root url="file://$PROJECT_DIR$/../../lib/pq/.git" />
+      <root url="file://$PROJECT_DIR$/../../mattn/go-sqlite3/.git" />
+      <root url="file://$PROJECT_DIR$/../../goinggo/tracelog/.git" />
+      <root url="file://$PROJECT_DIR$/../../goinggo/beego-mgo/.idea" />
+      <root url="file://$PROJECT_DIR$/../../golang/snappy/.git" />
+      <root url="file://$PROJECT_DIR$/../../kelseyhightower/envconfig/.git" />
+      <root url="file://$PROJECT_DIR$/../../mattn/go-sqlite3/_example" />
+      <root url="file://$PROJECT_DIR$/../../../golang.org/x/net/html/charset/testdata" />
+      <root url="file://$PROJECT_DIR$/../../garyburd/redigo/.git" />
+      <root url="file://$PROJECT_DIR$/../../../gopkg.in/yaml.v2/.git" />
+      <root url="file://$PROJECT_DIR$/.idea" />
+      <root url="file://$PROJECT_DIR$/../../andygrunwald/go-jira/.git" />
+      <root url="file://$PROJECT_DIR$/../../goinggo/beego-mgo/go-i18n/goi18n/testdata" />
+      <root url="file://$PROJECT_DIR$/.git" />
+      <root url="file://$PROJECT_DIR$/../../../golang.org/x/net/html/testdata" />
+      <root url="file://$PROJECT_DIR$/../../go-sql-driver/mysql/.git" />
+      <root url="file://$PROJECT_DIR$/../adna/.idea" />
+      <root url="file://$PROJECT_DIR$/../../BurntSushi/toml/.git" />
+      <root url="file://$PROJECT_DIR$/../../buaazp/fasthttprouter/.git" />
+      <root url="file://$PROJECT_DIR$/../../BurntSushi/toml/_examples" />
+      <root url="file://$PROJECT_DIR$/../../../gopkg.in/check.v1/.git" />
+      <root url="file://$PROJECT_DIR$/../adna/.git" />
+      <root url="file://$PROJECT_DIR$/../../../golang.org/x/net/.git" />
     </excluded>
   </library>
 </component>

@@ -12,22 +12,28 @@ var (
 	//isProd        bool
 )
 
-const httpsConfigKey = "https_base"
+const HTTPSAddr = "HTTPSAddr"
+const HTTPSPort = "HTTPSPort"
 
-func Https(ctx *context.Context) {
-	//if isProd {
-		if ctx.Input.Request.TLS == nil {
-			ctx.Redirect(http.StatusTemporaryRedirect, https_baseUrl+ctx.Input.Request.URL.String())
-		}
-	//}
-}
 
 func init() {
 	//isProd = beego.RunMode == "prod"
 	//if isProd {
-		https_baseUrl = beego.AppConfig.String(httpsConfigKey)
-		if len(https_baseUrl) == 0 {
-			panic(fmt.Errorf("missing configuration '%s'", httpsConfigKey))
+	if len(beego.AppConfig.String(HTTPSAddr)) == 0 {
+		panic(fmt.Errorf("missing configuration '%s'", HTTPSAddr))
+	}
+	if len(beego.AppConfig.String(HTTPSPort)) == 0 {
+		panic(fmt.Errorf("missing configuration '%s'", HTTPSPort))
+	}
+	https_baseUrl = "https://" + beego.AppConfig.String(HTTPSAddr) + ":" + beego.AppConfig.String(HTTPSPort)
+	//}
+}
+
+func Https(ctx *context.Context) {
+	//if isProd {
+		if ctx.Request.TLS == nil {
+			ctx.Redirect(http.StatusTemporaryRedirect, https_baseUrl+ctx.Request.URL.String())
 		}
 	//}
 }
+

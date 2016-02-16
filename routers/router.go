@@ -1,9 +1,9 @@
 package routers
 
 import (
-	"go-example-001-autoswitch-to-https/controllers"
+	"github.com/zloibubr/go-example-001-autoswitch-to-https/controllers"
 	"github.com/astaxie/beego"
-	"go-example-001-autoswitch-to-https/redirect"
+	"github.com/zloibubr/go-example-001-autoswitch-to-https/redirect"
 	"github.com/astaxie/beego/context"
 )
 
